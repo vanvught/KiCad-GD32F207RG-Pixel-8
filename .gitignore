@@ -21,6 +21,7 @@ _autosave-*
 fp-info-cache
 ~*.lck
 \#auto_saved_files#
+/_restore_backup_*
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -28,10 +29,6 @@ fp-info-cache
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
-
-# Exported BOM files
-*.xml
-*.csv
 
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
@@ -41,3 +38,5 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+.DS_Store
+
